@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.A, function () {
+    basic.clearScreen()
+})
 input.onGesture(Gesture.Shake, function () {
     RandomNumber = randint(-1, 1)
     if (RandomNumber == -1) {
